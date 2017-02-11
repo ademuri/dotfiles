@@ -36,6 +36,7 @@ set number
 set mouse=a
 set t_Co=256                          " enable 256 colors
 set autoindent
+set smartindent
 set showmode
 set complete+=k                       " enable dictionary completion
 set wildmenu  			      " cmd line complet
@@ -47,6 +48,8 @@ set backspace=indent,eol,start        " behave like a normal backspace
 set magic                             " enables regex highlight
 set showmatch                         " show matching brackets (),{},[]
 set noswapfile
+set autochdir
+set laststatus=2                      " Always show the status line
 
 syntax on
 syntax enable
