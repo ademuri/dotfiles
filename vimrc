@@ -51,6 +51,10 @@ set noswapfile
 set autochdir
 set laststatus=2                      " Always show the status line
 
+" hightight search results and search as we type
+set hlsearch
+set incsearch
+
 syntax on
 syntax enable
 let g:solarized_termcolors=256
