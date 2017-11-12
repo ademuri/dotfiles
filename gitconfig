@@ -1,0 +1,6 @@
+[user]
+	email = adam.demuri@gmail.com
+	name = Adam Demuri
+[alias]
+  co = checkout
+  amend = commit --amend
