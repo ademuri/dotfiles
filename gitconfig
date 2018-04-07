@@ -6,3 +6,6 @@
   amend = commit --amend --no-edit
   br = branch
   con = rebase --continue
+  mt = mergetool
+[pull]
+	rebase = true
