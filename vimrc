@@ -74,3 +74,18 @@ function! XTermPasteBegin()
   set paste
   return ""
 endfunction
+
+" When switching buffers, leave the old one "open" in the background. This
+" preserves undo history.
+set hidden
+
+" Persistent undo
+" Note: you must manually create the ~/.vim/undo directory.
+set undofile
+set undodir=$HOME/.vim/undo
+
+set undolevels=1000
+set undoreload=10000
+
+" Don't overwrite the yank buffer on paste
+xnoremap p pgvy
