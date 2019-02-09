@@ -7,5 +7,6 @@
   br = branch
   con = rebase --continue
   mt = mergetool
+  review = push origin HEAD:refs/for/master
 [pull]
 	rebase = true
