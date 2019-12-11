@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then 
+  echo "usage: replace_cpp 's/herp/derp/g'"
+  exit 1
+fi
+
+find ./ -type f -regextype posix-extended -regex ".*\.(ino|hpp|cpp)" -not -regex ".*build.*" -exec sed -i "$1" {} \;
