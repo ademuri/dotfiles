@@ -10,3 +10,5 @@
   review = push origin HEAD:refs/for/master
 [pull]
 	rebase = true
+[core]
+	excludesfile = /home/adam/.gitignore_global
