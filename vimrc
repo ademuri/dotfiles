@@ -90,3 +90,6 @@ set undoreload=10000
 
 " Don't overwrite the yank buffer on paste
 xnoremap p pgvy
+
+" CtrlP ignore directories
+let g:ctrlp_custom_ignore = 'build'
