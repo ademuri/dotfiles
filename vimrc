@@ -92,4 +92,4 @@ set undoreload=10000
 xnoremap p pgvy
 
 " CtrlP ignore directories
-let g:ctrlp_custom_ignore = 'build'
+let g:ctrlp_custom_ignore = 'build$'
