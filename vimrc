@@ -34,6 +34,9 @@ set shiftwidth=2
 nnoremap ; :
 
 set number
+
+" Support resizing panes with the mouse
+set ttymouse=xterm2
 set mouse=a
 set t_Co=256                          " enable 256 colors
 set autoindent
@@ -93,3 +96,6 @@ xnoremap p pgvy
 
 " CtrlP ignore directories
 let g:ctrlp_custom_ignore = 'build$'
+
+" YouCompleteMe options
+let completeopt="menu"
