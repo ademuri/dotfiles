@@ -19,6 +19,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-scripts/L9'
 Plugin 'vim-scripts/FuzzyFinder'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'fatih/vim-go'
 
 
 let mapleader = ","
@@ -104,3 +105,5 @@ let g:ctrlp_custom_ignore = 'build$'
 
 " YouCompleteMe options
 let completeopt="menu"
+
+let g:go_fmt_command = "goimports"
