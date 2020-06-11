@@ -38,6 +38,7 @@ set number
 " Support resizing panes with the mouse
 set ttymouse=xterm2
 set mouse=a
+
 set t_Co=256                          " enable 256 colors
 set autoindent
 set smartindent
@@ -54,6 +55,10 @@ set showmatch                         " show matching brackets (),{},[]
 set noswapfile
 set autochdir
 set laststatus=2                      " Always show the status line
+
+" Smart case when searching
+set ignorecase
+set smartcase
 
 " hightight search results and search as we type
 set hlsearch
