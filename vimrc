@@ -19,6 +19,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-scripts/L9'
 Plugin 'vim-scripts/FuzzyFinder'
 Plugin 'Valloric/YouCompleteMe'
+" Note: run :GoInstallBinaries to make this work
 Plugin 'fatih/vim-go'
 
 
