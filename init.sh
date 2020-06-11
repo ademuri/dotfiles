@@ -19,3 +19,5 @@ if ! crontab -l | grep -q eye_reminder\\.sh; then
   (crontab -l ; echo "*/20 * * * * \"${HOME}/bin/eye_reminder.sh\"") | crontab -
 fi
 
+mkdir -p ~/.vim/undo
+
