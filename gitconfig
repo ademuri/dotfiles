@@ -1,6 +1,6 @@
 [user]
 	email = adam.demuri@gmail.com
-	name = Adam Demuri
+	name = Adam DeMuri
 [alias]
   co = checkout
   amend = commit --amend --no-edit
@@ -8,6 +8,7 @@
   con = rebase --continue
   mt = mergetool
   review = push origin HEAD:refs/for/master
+  files = diff --name-only
 [pull]
 	rebase = true
 [core]
