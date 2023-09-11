@@ -13,3 +13,7 @@
 	rebase = true
 [core]
 	excludesfile = /home/adam/.gitignore_global
+[safe]
+	directory = /usr/share/kicad/3dmodels
+[init]
+	defaultBranch = main
