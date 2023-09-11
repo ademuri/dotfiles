@@ -108,3 +108,7 @@ let g:ctrlp_custom_ignore = 'build$'
 let completeopt="menu"
 
 let g:go_fmt_command = "goimports"
+
+
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
